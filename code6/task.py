@@ -25,3 +25,11 @@ print(replace1)
 replace2 = test_string2.replace("I can't see you", 'you too')
 print(replace2)
 # I can see you, you too
+
+for b in replace1:
+    print(b, end='')
+
+print(' ')
+
+for c in replace2:
+    print(c, end=' ')
